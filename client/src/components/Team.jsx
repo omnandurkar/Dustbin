@@ -21,7 +21,7 @@ export default () => {
         },
         {
             avatar: "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
-            
+
             name: "Abhinav Gadge",
             title: "Product designer",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
@@ -56,11 +56,11 @@ export default () => {
                         {
                             team.map((item, idx) => (
                                 <li
-                                key={idx}
-                                className="gap-8 sm:flex"
-                                data-aos={idx % 2 === 0 ? "fade-right" : "fade-left"}
-                                data-aos-delay={`${idx * 400}`}
-                            >
+                                    key={idx}
+                                    className="gap-8 sm:flex"
+                                    data-aos={idx % 4 < 2 ? "fade-down" : "fade-up"} // First 2 elements fade up, next 2 fade down, and repeat
+                                    data-aos-delay={`${idx * 100}`}
+                                >
                                     <div className="w-full h-60">
                                         <img
                                             src={item.avatar}

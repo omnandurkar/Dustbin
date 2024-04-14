@@ -28,8 +28,8 @@ export default () => {
         <section className="py-14"  style={{
             background: "linear-gradient(152.92deg, rgba(132, 252, 192, 0.2) 4.54%, rgba(121, 249, 232, 0.17) 34.2%, rgba(132, 252, 192, 0.1) 77.55%)",
         }}>
-            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 gap-16 justify-between md:px-8 lg:flex">
-                <div data-aos="fade-right">
+            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 gap-16 justify-between md:px-8 lg:flex" data-aos="fade-right">
+                <div data-aos="fade-up">
                     <div className="max-w-xl space-y-3">
                         <h3 className="text-green-600 font-semibold">
                             Features
@@ -45,7 +45,10 @@ export default () => {
                         <ul className="space-y-8">
                             {
                                 features.map((item, idx) => (
-                                    <li key={idx} className="flex gap-x-4">
+                                    <li key={idx} className="flex gap-x-4" 
+                                    data-aos="fade-up"
+                                    data-aos-delay={`${500 + idx * 400}`}>
+                                    
                                         <div className="flex-none w-12 h-12 bg-green-50 text-green-600 rounded-lg flex items-center justify-center">
                                             {item.icon}
                                         </div>
@@ -63,7 +66,7 @@ export default () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex  lg:mt-0 " data-aos="fade-left">
+                <div className="flex  lg:mt-0 " data-aos="fade-down">
                     <img src="https://raw.githubusercontent.com/sidiDev/remote-assets/main/Safari%20(Big%20Sur)%20-%20Light.png" className=" w-full shadow-lg rounded-lg border" />
                 </div>
             </div>

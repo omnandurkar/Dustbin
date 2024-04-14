@@ -25,7 +25,7 @@ export default function Dustbins() {
     return (
         <div className="flex flex-wrap justify-center  p-10">
             {sections.map((section, index) => (
-                <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 text-center mb-8">
+                <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 text-center mb-8 animate-fade-up">
                     <div className="relative hover:-translate-y-4 duration-300">
                         <img src={section.bg} alt="Dustbin" className="w-full h-auto " />
                         <div className="-mt-16 absolute inset-0 flex flex-col justify-center items-center">

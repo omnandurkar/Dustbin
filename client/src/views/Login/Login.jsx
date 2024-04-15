@@ -1,4 +1,41 @@
+import {auth, provider} from "../../views/Login/config"
+import { signInWithPopup } from "firebase/auth"
+import React, { useState, useEffect } from "react";
+import { toast } from "react-hot-toast"
+import { Navigate } from "react-router-dom";
+
+
+
 export default () => {
+
+    const [value, setValue] = useState('')
+    const [loggedIn, setLoggedIn] = useState(false);
+
+    const handleClick =()=> {
+        signInWithPopup(auth, provider).then((data) =>{
+            setValue(data.user.email)
+            localStorage.setItem("email", data.user.email)
+            localStorage.setItem("userName", data.user.displayName)
+            localStorage.setItem("userPhoto", data.user.photoURL)
+            setLoggedIn(true)
+
+            toast.success("Login Successful")
+        })
+
+        // windows.location.href("/")
+    }
+
+    useEffect(() =>{
+        setValue(localStorage.getItem("email"))
+        
+    },[])
+
+    if(loggedIn){
+        return <Navigate to="/" replace= {true}/>
+    }
+
+
+
   return (
       <main className="w-full h-screen flex flex-col items-center justify-center px-4">
           <div className="max-w-sm w-full text-gray-600">
@@ -40,7 +77,7 @@ export default () => {
                       Create account
                   </button>
               </form>
-              <button className="w-full flex items-center justify-center gap-x-3 py-2.5 mt-5 border rounded-lg text-sm font-medium hover:bg-gray-50 duration-150 active:bg-gray-100">
+              <button onClick={handleClick} className="w-full flex items-center justify-center gap-x-3 py-2.5 mt-5 border rounded-lg text-sm font-medium hover:bg-gray-50 duration-150 active:bg-gray-100">
                   <svg className="w-5 h-5" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_17_40)">
                           <path d="M47.532 24.5528C47.532 22.9214 47.3997 21.2811 47.1175 19.6761H24.48V28.9181H37.4434C36.9055 31.8988 35.177 34.5356 32.6461 36.2111V42.2078H40.3801C44.9217 38.0278 47.532 31.8547 47.532 24.5528Z" fill="#4285F4" />

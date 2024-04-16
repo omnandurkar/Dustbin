@@ -20,6 +20,7 @@ export default () => {
         try {
             localStorage.clear();
             await auth.signOut();
+            window.location.reload(); 
             toast.success("Logout Successful");
         } catch (error) {
             console.error("Error logging out:", error);
@@ -31,12 +32,12 @@ export default () => {
     const navigation = [
         { title: "Home", path: "/" },
         { title: "Reviews", path: "/review" },
-        { title: "Contact", path: "/" },
-        { title: "Pricing", path: "/" }
+        { title: "Contact", path: "/contact" },
+        { title: "Pricing", path: "/pricing" }
     ]
 
     return (
-        <nav className="bg-white border-b w-full md:static md:text-sm">
+        <nav className="bg-white border-b w-full md:static md:text-sm" id='navbar' >
             <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <Link to="/">

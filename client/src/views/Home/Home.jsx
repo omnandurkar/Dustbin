@@ -15,6 +15,7 @@ import Steps from '../../components/HoComps/Steps';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
+import Navigator from '../../components/HoComps/Navigator'
 
 export default function Home() {
 
@@ -48,6 +49,8 @@ export default function Home() {
 <hr className='my-4'/>
 
     <Footer/>
+
+    <Navigator/>
     
     
     </>

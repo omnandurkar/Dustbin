@@ -10,7 +10,7 @@ export default function BannerSection() {
             <div className='container mx-auto'>
                 <div className="flex flex-col items-center md:mx-72 justify-center md:flex-row md:space-x-12 lg:space-x-24">
                     <div className="w-full md:w-3/4 content-column flex justify-between align-middle animate-fade-down">
-                            <img src='https://wastix.vercel.app/assets/images/shape/shape-5.png' className='h-20 w-20 align-middle animate-spin animate-infinite' alt="" />
+                            <img src='https://wastix.vercel.app/assets/images/shape/shape-5.png' className='h-20 w-20 align-middle animate-spin animate-infinite animate-duration-[5000ms]' alt="" />
                         <div className="flex flex-col   p-10">
                             <span className="text-xl md:text-lg text-green-600  font-semibold ">Waste Pickup</span>
                             <h2 className="text-3xl md:text-5xl font-extrabold mt-2 mb-2">Your waste pickup solutions</h2>

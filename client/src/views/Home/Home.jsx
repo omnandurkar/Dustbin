@@ -16,6 +16,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import Navigator from '../../components/HoComps/Navigator'
+import Companies from '../../components/HoComps/Companies'
 
 export default function Home() {
 
@@ -39,6 +40,8 @@ export default function Home() {
     <Stats/>
 
     <HoReviews/>
+
+    <Companies/>
 
     <Team/>
 

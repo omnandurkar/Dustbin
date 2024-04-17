@@ -1,4 +1,7 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import abhya from "./Abhya.jpg";
+import vikas from "./vikas.jpg";
+import member from "./member.jpg";
 
 export default () => {
 
@@ -7,35 +10,35 @@ export default () => {
             avatar: "https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
             name: "Om Malve",
             title: "Product designer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "Mecanical engineer , JSPM's Imperial College of Engineering and Research, Pune University.  Spatial Moto : Innovating Precision, Engineering Excellence and Innovation.",
             linkedin: "/",
             twitter: "/",
             github: "/"
         },
         {
-            avatar: "https://images.unsplash.com/photo-1623605931891-d5b95ee98459?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80",
+            avatar: vikas,
             name: "Vishal Phadtare",
-            title: "Software engineer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            title: "Design engineer",
+            desc: "Mecanical engineer , JSPM's Imperial College of Engineering and Research, Rune University. Spatial Moto : Turning Ideas into Mechanical Marvels",
             linkedin: "/",
             twitter: "/",
             github: "/"
         },
         {
-            avatar: "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+            avatar: abhya,
 
             name: "Abhinav Gadge",
             title: "Product designer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "Mechanical engineer , JSPM's Imperial College of Engineering and Research, Rune University. Spatial Moto : Precision Engineering for a Dynamic World of Solutions",
             linkedin: "/",
             twitter: "/",
             github: "/"
         },
         {
-            avatar: "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-            name: "Tony Stark (Assistant)",
+            avatar: member,
+            name: "Sahil Gaikwad",
             title: "Product manager",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "Mechanical engineer , JSPM's Imperial College of Engineering and Research, Rune University. Spatial Moto : Empowering Innovation, Redefining Mechanical Solutions",
             linkedin: "/",
             twitter: "/",
             github: "/"

@@ -67,7 +67,7 @@ export default () => {
                     </div>
                 </div>
                 <div className="flex  lg:mt-0 " data-aos="fade-down">
-                    <img src="https://raw.githubusercontent.com/sidiDev/remote-assets/main/Safari%20(Big%20Sur)%20-%20Light.png" className=" w-full shadow-lg rounded-lg border" />
+                    <img src="https://tse1.mm.bing.net/th/id/OIG2.4SqZuOw0xMySaiDDNRtY?pid=ImgGn" className=" w-full mt-12 shadow-lg rounded-lg border" />
                 </div>
             </div>
         </section>

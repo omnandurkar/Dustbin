@@ -82,7 +82,7 @@ export default function Steps() {
           </div>
         </div>
       </div>
-      <img className="lg:w-2/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12 mx-auto" src="https://dummyimage.com/1200x500" alt="step"/>
+      <img className="lg:w-2/5 md:w-1/3 object- object-center rounded-lg md:mt-0 mt-12 mx-auto" src="https://www.callcentrehelper.com/images/stories/2010/01/6-steps-760.jpg" alt="step"/>
     </div>
   </div>
 </section>

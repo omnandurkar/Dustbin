@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default () => {
     return (
         <section className="max-w-xl mt-12 mx-auto px-4 md:px-8" data-aos="fade-up">
@@ -29,7 +31,7 @@ export default () => {
                 </form>
                 <p className="mt-3 mx-auto text-center max-w-lg text-[15px] text-gray-400">
                     No spam ever, we are care about the protection of your data. 
-                    Read our <a className="text-green-600 underline" href="javascript:void(0)"> Privacy Policy </a>
+                    Read our <Link className="text-green-600 underline" href="/"> Privacy Policy </Link>
                 </p>
             </div>
         </section>

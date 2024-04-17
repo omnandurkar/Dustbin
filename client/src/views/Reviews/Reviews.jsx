@@ -86,20 +86,25 @@ export default function Reviews() {
       
       <div className="container mt-5 mx-auto">
 
-        <section class="text-gray-600 body-font">
-          <div class="container px-5 py-16 mx-auto">
-            <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Reviews</h1>
-              <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p>
+        <section className="text-gray-600 body-font">
+          <div className="container px-5 py-16 mx-auto">
+            <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Reviews</h1>
+              <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p>
             </div>
-            <div class="flex flex-wrap -m-4 animate-jump-in w-4/5 mx-auto" >
+            <div className="mt-12 animate-rotate-y w-4/5 mx-auto ">
+              <ul className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
-              {reviews.map((review) => (
-                <ReviewCard key={review._id} {...review} loadReview={loadReview} />
-              ))}
+                {reviews.map((review) => (
+                  <ReviewCard key={review._id} {...review} loadReview={loadReview} />
+                ))}
+
+
+              </ul>
+
 
             </div>
-            <button type="button" onClick={loadReview} class="flex mx-auto mt-16 text-white bg-green-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-500 rounded-md text-lg">Load Reviews</button>
+            <button type="button" onClick={loadReview} className="flex mx-auto mt-16 text-white bg-green-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-500 rounded-md text-lg">Load Reviews</button>
           </div>
         </section>
 

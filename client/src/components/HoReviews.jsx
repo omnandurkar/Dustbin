@@ -2,20 +2,22 @@ export default () => {
 
     const testimonials = [
         {
-            avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-            name: "Martin escobar",
+           
+            avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+            name: "Om Nandurkar",
             title: "Founder of meta",
             quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
         },
         {
-            avatar: "https://randomuser.me/api/portraits/men/46.jpg",
-            name: "Simon andrew",
+           
+            avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+            name: "Sunny Kumar",
             title: "Software engineer",
             quote: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
         },
         {
-            avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-            name: "Micheal worin",
+            avatar: "https://randomuser.me/api/portraits/men/46.jpg",
+            name: "Avinash Gambhire",
             title: "Product designer",
             quote: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
         },

@@ -3,21 +3,21 @@ import React from 'react';
 export default function Dustbins() {
     const sections = [
         {
-            name: "Dumpster Sizes",
+            name: "Dry Waste",
             logo: "https://cdn-icons-gif.flaticon.com/12829/12829535.gif",
-            content: "Lorem ipsum dolor sit amet consectetur elit.",
+            content: "Get it Decomposited.",
             bg: "https://wastix.vercel.app/assets/images/shape/shape-6.png"
         },
         {
-            name: "Waste Collection",
+            name: "Wet Waste",
             logo: "https://cdn-icons-gif.flaticon.com/11785/11785343.gif",
-            content: "Lorem ipsum dolor sit amet consectetur elit.",
+            content: "Ready to go in Soil.",
             bg: "https://wastix.vercel.app/assets/images/shape/shape-6.png"
         },
         {
-            name: "Pickup Schedule",
+            name: "Scaned Item",
             logo: "https://cdn-icons-gif.flaticon.com/11926/11926869.gif",
-            content: "Lorem ipsum dolor sit amet consectetur elit.",
+            content: "Checklist your Item or Reorder the item",
             bg: "https://wastix.vercel.app/assets/images/shape/shape-6.png"
         }
     ];

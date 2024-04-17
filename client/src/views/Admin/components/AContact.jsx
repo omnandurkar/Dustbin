@@ -33,7 +33,7 @@ export default function AContact() {
 
     return (
         <div className='flex space-x-4 justify-center'>
-            <div className="container rounded">
+            <div className="container rounded overflow-y-scroll h-screen">
                 <h1 className="mb-3">Contact Requests</h1>
                 <div className="row">
                     {contact.map((item, index) => {

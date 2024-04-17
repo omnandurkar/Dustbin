@@ -2,12 +2,13 @@ import { Link } from "react-router-dom";
 import abhya from "./Abhya.jpg";
 import vikas from "./vikas.jpg";
 import member from "./member.jpg";
+import malve from "./malve.jpg";
 
 export default () => {
 
     const team = [
         {
-            avatar: "https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
+            avatar: malve,
             name: "Om Malve",
             title: "Product designer",
             desc: "Mecanical engineer , JSPM's Imperial College of Engineering and Research, Pune University.  Spatial Moto : Innovating Precision, Engineering Excellence and Innovation.",

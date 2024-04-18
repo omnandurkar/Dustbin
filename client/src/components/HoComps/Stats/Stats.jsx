@@ -26,7 +26,7 @@ export default () => {
                         Our customers are always happy
                     </h3>
                     <p className="mt-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis sollicitudin quam ut tincidunt.
+                       Our Customers says about us ...
                     </p>
                 </div>
                 <div className="mt-12">

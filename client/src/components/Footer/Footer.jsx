@@ -39,7 +39,8 @@ export default () => {
               {/* <img src="https://www.floatui.com/logo.svg" className="w-32 sm:mx-auto" /> */}
               <h1 className="font-extrabold text-3xl text-green-600 mb-10 mt-6">Smart Dustbin</h1>
               <p className="leading-relaxed mt-2 text-[15px]">
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                 
+A smart dustbin, equipped with sensors and IoT technology, automatically segregates waste, optimizes collection routes, and promotes sustainable waste management practices.
               </p>
           </div>
           <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">

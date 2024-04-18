@@ -31,7 +31,7 @@ export default () => {
                         Hear from our customers
                     </h3>
                     <p className="mt-3 text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.
+                    Their feedback fuels our innovation and drives us to exceed expectations
                     </p>
                 </div>
                 <div className="mt-12">

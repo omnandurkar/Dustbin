@@ -54,7 +54,7 @@ export default () => {
                         Meet our talent team
                     </h3>
                     <p className="text-gray-600 mt-3">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy.
+                    Meet our talented team of experts who bring passion and expertise to every project, ensuring exceptional results and client satisfaction. With diverse skills and a collaborative approach, we deliver innovative solutions tailored to your needs.
                     </p>
                 </div>
                 <div className="mt-12">
